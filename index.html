@@ -1399,13 +1399,20 @@
       class="scroll-top d-flex align-items-center justify-content-center"
       ><i class="bi bi-arrow-up-short"></i
     ></a>
-    <!-- Iframe from Pickaxe -->
-    <iframe 
-  src="https://studio.pickaxe.co/_embed/AWCQ2YD7NK?d=deployment-1be27e15-54c7-45a5-b42a-d2fa3a2197de" 
-  style="width: 74%; height: 500px; max-width: 700px; border-radius: 24px;" 
-  frameborder="0">
-</iframe>
-  
+<!-- Brevo Conversations {literal} -->
+<script>
+    (function(d, w, c) {
+        w.BrevoConversationsID = '67dd8bda3632b93dd20aeb7d';
+        w[c] = w[c] || function() {
+            (w[c].q = w[c].q || []).push(arguments);
+        };
+        var s = d.createElement('script');
+        s.async = true;
+        s.src = 'https://conversations-widget.brevo.com/brevo-conversations.js';
+        if (d.head) d.head.appendChild(s);
+    })(document, window, 'BrevoConversations');
+</script>
+<!-- /Brevo Conversations {/literal} -->
     <!-- Vendor JS Files -->
     <script src="assets/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
     <script src="assets/vendor/php-email-form/validate.js"></script>
@@ -1415,7 +1422,7 @@
     <script src="assets/vendor/imagesloaded/imagesloaded.pkgd.min.js"></script>
     <script src="assets/vendor/isotope-layout/isotope.pkgd.min.js"></script>
     <script src="assets/vendor/swiper/swiper-bundle.min.js"></script>
-    
+
     <!-- Main JS File -->
     <script src="assets/js/main.js"></script>
     <script src="assets/js/newsletter.js" defer></script>
